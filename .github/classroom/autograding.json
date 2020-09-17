@@ -1,0 +1,44 @@
+{
+  "tests": [
+    {
+      "name": "To Lower",
+      "setup": "",
+      "run": "./gradlew clean test --tests MyTests.testToLower",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "To Upper",
+      "setup": "",
+      "run": "./gradlew clean test --tests MyTests.testToUpper",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "MyToUpperCase",
+      "setup": "",
+      "run": "./gradlew clean test --tests MyTests.testMyToUpperCase",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "MyToLowerCase",
+      "setup": "",
+      "run": "./gradlew clean test --tests MyTests.testMyToLowerCase",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
